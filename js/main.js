@@ -1,6 +1,6 @@
 import './consts.js';
 import './utils.js';
 import {getData} from './mocks.js';
+import {renderGallery} from './gallery.js';
 
-// eslint-disable-next-line no-console
-console.log(getData());
+renderGallery(getData());
